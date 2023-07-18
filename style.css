@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Lato', sans-serif;
+}
+.logo{
+    display:flex;
+    align-items: center;
+}
+.nav-img{
+    width:100px;
+    object-fit: cover;
+}
+.logo-text{
+    font-size:30px;
+}
+.hive{
+    color:#e893cf;
+}
+.nav-content{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width:1400px;
+    margin:0 auto;
+}
+nav{
+    background-color: #9376e0;
+}
+.nav-menu{
+    display:flex;
+    gap:70px;
+    align-items: center;
+    justify-content: space-around;
+    list-style:none;
+}
+.nav-menu>li>a{
+text-decoration: none;
+color:white;
+}
+.login{
+    background-color: #e893cf;
+    color:black;
+    padding:10px 20px;
+    font-weight: 700;
+    font-size:20px;
+    border-radius: 5px;
+}

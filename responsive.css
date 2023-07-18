@@ -1,0 +1,12 @@
+@media screen and (max-width:576px) {
+    .nav-menu{
+        flex-direction: column;
+    }
+    .nav-content{
+        flex-direction: column;
+    }
+    .login{
+        width:100%;
+        margin-bottom: 10px;
+    }
+}
